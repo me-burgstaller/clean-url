@@ -1,0 +1,21 @@
+{
+    "name": "me-burgstaller/clean-url",
+    "description": "To make a clean url (slugify)",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MeBurgstaller\\CleanUrl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Melissa Burgstaller",
+            "email": "melissaburgstaller@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "cocur/slugify": "~v4.4"
+    }
+}
